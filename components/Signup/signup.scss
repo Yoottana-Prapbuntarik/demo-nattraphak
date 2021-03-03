@@ -1,0 +1,24 @@
+@import "../../public//assets/styles/variables";
+.signup-form {
+    .col-lg-6,
+    .col-lg-12{
+        label{
+            font-family: $SukhumvitSet-Bold;
+        }
+            select {
+                option {
+                      font-family: $SukhumvitSet-Bold !important;
+                    }
+            }
+    }
+}
+
+.title-header-signup {
+    font-family: $SukhumvitSet-Bold;
+    padding-top: $padding-between-4;
+}
+
+.padding-session {
+    padding-top: $padding-between-4;
+    padding-bottom: $padding-between-4;
+}

@@ -1,0 +1,40 @@
+@import "../../public/assets/styles/variables";
+.card {
+    border: none !important;
+}
+.img-wrapper {
+    position: relative;
+    cursor: pointer;
+    height: 370px;
+    overflow: hidden;
+    transition: ease .5s;
+    .amount-items{
+     display: none;
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     color: #000;
+     font-family: 'SukhumvitSet-Bold';
+     height: 40px;
+     background-color: rgba(255, 255, 255, 0.8);
+    } 
+    &:hover{
+        opacity: .75;
+        .amount-items{
+            display: flex;
+            opacity: .75;
+            transition: ease 1s;
+            justify-content: center;
+            align-items: center;  
+      } 
+    }
+    
+}
+
+.original-price {
+    color: $gray;
+}
+
+.price{
+ color: $orange;
+}   

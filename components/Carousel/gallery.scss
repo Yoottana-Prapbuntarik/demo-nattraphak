@@ -1,0 +1,105 @@
+@import "../../public/assets/styles/variables.scss";
+
+.continaer-gallery{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    background: #000;
+}
+
+.carousel-control-next-icon, .carousel-control-prev {
+    display: none !important;
+}
+
+.carousel-caption {
+    h3{
+        font-family: $SukhumvitSet-Bold;
+        font-size: 100px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.6px;
+        color: #ffffff;   
+    }
+    position: absolute;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control-next-icon{
+    display: none;
+}
+.carousel-control-prev-icon{
+    display: none;
+}
+
+.carousel-item{
+    position: relative;
+    top: 0;
+    max-height: 800px;
+    overflow: hidden;
+    img{
+        object-fit:cover;
+    }
+}
+
+.continaer-gallery .carousel-indicators{
+    top: 80%;
+    li{
+        padding: .15rem .3rem;
+    }
+}
+
+.carousel-indicators{ 
+    .active {
+        opacity: 1;
+        padding: 0.15rem 0.6rem;
+    }
+}
+
+.bg-alpha {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1024.98px){
+    .carousel-item{
+        position: relative;
+        top: 0;
+        max-height: 400px;
+        overflow: hidden;
+    }
+    .carousel-caption {
+        h3{
+            font-size: 50px;
+        }
+    }
+    .continaer-gallery {
+        height: 400px !important;
+    }
+
+    .continaer-gallery .carousel-indicators{
+        bottom: 10%;
+        li{
+            padding: .15rem .3rem;
+        }
+    }
+}
+
+@media (max-width: 991.98px){
+    .carousel-caption {
+        h3{
+            font-size: 30px;
+        }
+    }
+}

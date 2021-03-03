@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'SukhumvitSet-Bold';
+    src: url('/assets/fonts/SukhumvitSet-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'SukhumvitSet-Light';
+    src: url('/assets/fonts/SukhumvitSet-Light.ttf');
+}
+
+@font-face {
+    font-family: 'SukhumvitSet-Medium';
+    src: url('/assets/fonts/SukhumvitSet-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'SukhumvitSet-SemiBold';
+    src: url('/assets/fonts/SukhumvitSet-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'SukhumvitSet-Text';
+    src: url('/assets/fonts/SukhumvitSet-Text.ttf');
+}
+
+@font-face {
+    font-family: 'SukhumvitSet-Thin';
+    src: url('/assets/fonts/SukhumvitSet-Thin.ttf');
+}
+
+$black: #000;
+$red: #ff00ff; 
+$pink:#e070aa;
+
+$orange:#ff3b30;
+$gray: #c7c7cc;
+
+$SukhumvitSet-Bold: SukhumvitSet-Bold;
+$SukhumvitSet-Light: SukhumvitSet-Light;
+$SukhumvitSet-Medium: SukhumvitSet-Medium;
+$SukhumvitSet-SemiBold: SukhumvitSet-SemiBold;
+$SukhumvitSet-Text: SukhumvitSet-Text;
+$SukhumvitSet-Thin: SukhumvitSet-Thin;
+
+$padding-between-2: 2rem;
+$padding-between-4: 4rem;
+$padding-between-8: 8rem;
+$padding-between-12: 12rem;

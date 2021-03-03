@@ -1,0 +1,41 @@
+@import "./variables.scss";
+
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+}
+
+.text-light-gray {
+  color:#c7c7cc;
+}
+
+.decoration-none {
+  text-decoration: none !important;
+  color: #505356 !important;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'SukhumvitSet-Bold';
+}
+
+.btn-pink {
+  background:$pink !important;
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+.content-width{
+  max-width: 1248px;
+  margin: 0 auto;
+}
+
+@media (max-width :1300.98px){
+  .content-width{
+      width: 100%;
+      margin: 0 auto;
+  }
+}
